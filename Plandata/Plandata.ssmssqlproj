@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Plandata">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="1pacific1-ma\ia3pacific6:MMMHC\igonzalezp">
+          <Created>2018-05-23T14:14:09.6520193-04:00</Created>
+          <Type>SQL</Type>
+          <Server>1pacific1-ma\ia3pacific6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="67.148.197.145, 11000:etltestuser">
+          <Created>2017-02-03T10:08:30.6691251-04:00</Created>
+          <Type>SQL</Type>
+          <Server>67.148.197.145, 11000</Server>
+          <UserName>etltestuser</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="67.148.197.145, 11023:etltestuser">
+          <Created>2018-05-02T13:54:50.2889394-04:00</Created>
+          <Type>SQL</Type>
+          <Server>67.148.197.145, 11023</Server>
+          <UserName>etltestuser</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:67.148.197.145, 11023:False:etltestuser</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>67.148.197.145, 11023</AssociatedConnSrvName>
+          <AssociatedConnUserName>etltestuser</AssociatedConnUserName>
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

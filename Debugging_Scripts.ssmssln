@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server Scripts1", "SQL Server Scripts1\SQL Server Scripts1.ssmssqlproj", "{1FDC30C8-B0FC-472F-A812-24A474A24FE1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DIH_Member", "DIH_Member\DIH_Member.ssmssqlproj", "{88630B2C-ACD0-4674-B571-26D88263D1A0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Plandata", "Plandata\Plandata.ssmssqlproj", "{FA8D6BE9-B03B-466B-BE2B-BB3CB4455641}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "318330", "318330\318330.ssmssqlproj", "{96D94DDB-F302-43DD-A8B6-725E1C9A24F1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "335023", "..\..\..\..\335023\Development\Query\335023\335023.ssmssqlproj", "{1A26E51E-8CBC-454C-98A9-3861956D3947}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "350867", "..\..\..\..\350867\Development\Query\350867\350867.ssmssqlproj", "{D475BDB7-046B-46AF-9D8A-EE9670DE99B7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "376401", "376401\376401.ssmssqlproj", "{DAE9B108-9218-46CB-A576-68DEDCC1D3EE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "407164", "407164\407164.ssmssqlproj", "{1AAC1BD1-D621-47DC-9824-E34BCE361B9F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "353375", "353375\353375.ssmssqlproj", "{D7988A42-E4C1-496C-A063-B832B0FA27EE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "438431", "438431\438431.ssmssqlproj", "{BDE59F41-8597-4160-87A1-7733A9C051A7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "438438", "438438\438438.ssmssqlproj", "{2F06322A-BF65-4F0F-824E-61FEF5012771}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "353361", "353361\353361.ssmssqlproj", "{77C8A8B6-D56A-4EB6-9F7E-DDE6330F4F62}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10040", "10040\10040.ssmssqlproj", "{4C75AB15-40EA-4DE6-A11B-D708C97F8414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDC30C8-B0FC-472F-A812-24A474A24FE1}.Default|Default.ActiveCfg = Default
+		{88630B2C-ACD0-4674-B571-26D88263D1A0}.Default|Default.ActiveCfg = Default
+		{FA8D6BE9-B03B-466B-BE2B-BB3CB4455641}.Default|Default.ActiveCfg = Default
+		{96D94DDB-F302-43DD-A8B6-725E1C9A24F1}.Default|Default.ActiveCfg = Default
+		{1A26E51E-8CBC-454C-98A9-3861956D3947}.Default|Default.ActiveCfg = Default
+		{D475BDB7-046B-46AF-9D8A-EE9670DE99B7}.Default|Default.ActiveCfg = Default
+		{DAE9B108-9218-46CB-A576-68DEDCC1D3EE}.Default|Default.ActiveCfg = Default
+		{1AAC1BD1-D621-47DC-9824-E34BCE361B9F}.Default|Default.ActiveCfg = Default
+		{D7988A42-E4C1-496C-A063-B832B0FA27EE}.Default|Default.ActiveCfg = Default
+		{BDE59F41-8597-4160-87A1-7733A9C051A7}.Default|Default.ActiveCfg = Default
+		{2F06322A-BF65-4F0F-824E-61FEF5012771}.Default|Default.ActiveCfg = Default
+		{77C8A8B6-D56A-4EB6-9F7E-DDE6330F4F62}.Default|Default.ActiveCfg = Default
+		{61872FCA-7C6A-4843-B472-D14639AA8DF8}.Default|Default.ActiveCfg = Default
+		{4C75AB15-40EA-4DE6-A11B-D708C97F8414}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

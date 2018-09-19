@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DIH_Member">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="1pacific1-jc.dev.pr.mmmhc.com:MMMHC\igonzalezp">
+          <Created>2016-12-16T11:27:00.1408227-04:00</Created>
+          <Type>SQL</Type>
+          <Server>1pacific1-jc.dev.pr.mmmhc.com</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="1pacific1-ma\ia3pacific6:MMMHC\igonzalezp">
+          <Created>2017-10-04T11:12:28.9529804-04:00</Created>
+          <Type>SQL</Type>
+          <Server>1pacific1-ma\ia3pacific6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>QNXTHub</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="1pacific2.dev.pr.mmmhc.com\pb_3pacific6:MMMHC\igonzalezp">
+          <Created>2016-12-01T18:03:43.029908-04:00</Created>
+          <Type>SQL</Type>
+          <Server>1pacific2.dev.pr.mmmhc.com\pb_3pacific6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Claims.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific2.dev.pr.mmmhc.com\pb_3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific2.dev.pr.mmmhc.com\pb_3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Claims.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DropIdxGen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DropIdxGen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MemberDIH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-jc.dev.pr.mmmhc.com:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-jc.dev.pr.mmmhc.com</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MemberDIH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MemberIds.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific2.dev.pr.mmmhc.com\pb_3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific2.dev.pr.mmmhc.com\pb_3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MemberIds.sql</FullPath>
+        </FileNode>
+        <FileNode Name="query_CreateScriptAllForeignKeys.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>query_CreateScriptAllForeignKeys.sql</FullPath>
+        </FileNode>
+        <FileNode Name="query_DropScriptAllForeignKeys.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>query_DropScriptAllForeignKeys.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

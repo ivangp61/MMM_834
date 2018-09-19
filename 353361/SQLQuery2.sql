@@ -1,0 +1,68 @@
+Select Top 100 *
+From STG_NAME_ADDRESS
+;
+
+Select Top 100 *
+From STG_NAME_PHONE_NUMBERS
+Where member_id IN('010431902')--,'010384875','030227899','030101016')
+;
+
+Select Top 10 *
+From STG_ADW_MemberCommunication C
+Where c.MemberRecId IN(187047, 463431, 709733, 343675)
+;
+
+
+Select *
+From STG_ADW_MemberCommunicationDetail D
+--Where CommDetailRecId = 1027975
+;
+
+Select NPN.*
+From dbo.STG_HCFA_NAME_ORG HNO
+	Inner Join DBO.STG_NAME_PHONE_NUMBERS NPN
+	On HNO.NAME_ID = NPN.NAME_ID 
+Where HNO.MEMBER_ID IN('010141874','010384875','030227899','030101016')
+;
+
+
+SELECT
+CompanyMRefId
+,ScndryExternalValue as PHONE_TYPE
+,CommTypeMRefId
+FROM ENTERPRISEHUB.[XRef].[CommunicationType] 
+Where ExternalTypeMRefId = 1
+and PrmryExternalValue = 'PHONE'
+
+
+
+SELECT
+A.NAME_ID
+,A.PHONE_TYPE
+,PHONE_NUMBER = REPLACE(REPLACE(REPLACE(REPLACE(RTRIM(LTRIM(ISNULL(A.PHONE_NUMBER,''))),' ',''),'(',''),')',''),'-','')
+,PHONE_EXTENSION = REPLACE(REPLACE(REPLACE(REPLACE(RTRIM(LTRIM(ISNULL(A.PHONE_EXTENSION,''))),' ',''),'(',''),')',''),'-','')
+,A.BEST_TIME_TO_CALL
+,A.CREATE_DATE
+,A.CREATE_STAFF
+,A.UPDATE_DATE
+,A.UPDATE_STAFF
+,A.SOURCE_SYSTEM
+--,B.CompanyMRefId
+--,C.MemberRecId
+,A.MEMBER_ID
+ FROM dbo.STG_NAME_PHONE_NUMBERS A
+ --inner join ENTERPRISEHUB.[MRef].[Company] B
+ --on A.SOURCE_SYSTEM = B.DISPLAYCODE
+ --INNER JOIN ENTERPRISEHUB.[XRef].[Member] C
+ --ON B.CompanyMRefId = C.CompanyMRefId
+ --AND A.MEMBER_ID = C.EXTERNALVALUE
+WHERE
+     ( REPLACE(REPLACE(REPLACE(REPLACE(RTRIM(LTRIM(ISNULL(A.PHONE_NUMBER,''))),' ',''),'(',''),')',''),'-','') <> ''
+      AND
+      ISNUMERIC(REPLACE(REPLACE(REPLACE(REPLACE(RTRIM(LTRIM(ISNULL(A.PHONE_NUMBER,''))),' ',''),'(',''),')',''),'-','')) = 1)
+      or
+     ( REPLACE(REPLACE(REPLACE(REPLACE(RTRIM(LTRIM(ISNULL(A.PHONE_EXTENSION,''))),' ',''),'(',''),')',''),'-','') <> ''
+      AND
+      ISNUMERIC(REPLACE(REPLACE(REPLACE(REPLACE(RTRIM(LTRIM(ISNULL(A.PHONE_EXTENSION,''))),' ',''),'(',''),')',''),'-','')) = 1)
+AND C.ExternalTypeMRefId = 5
+AND C.MemberRecId = 187047

@@ -1,0 +1,13 @@
+SELECT TOP 11*
+FROM dbo.stg_exceptions
+WHERE 1 = 1
+	AND DOMAIN = 'MEMBER'
+	AND ProcessName = 'Extract'
+	and Keyname LIKE '%N00166637058%'
+;
+
+SELECT TOP 100 *
+FROM [dbo].[STG_NAME_ADDRESS]
+
+2008-12-10 03:21:26.000
+0001-01-01 12:00:00.000

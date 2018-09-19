@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="318330">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="1DOVETREE1B\IA3PACIFIC6:MMMHC\igonzalezp">
+          <Created>2017-10-09T16:37:19.2434501-04:00</Created>
+          <Type>SQL</Type>
+          <Server>1DOVETREE1B\IA3PACIFIC6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="1pacific1-ma\ia3pacific6:MMMHC\igonzalezp">
+          <Created>2017-07-06T14:33:55.8267467-04:00</Created>
+          <Type>SQL</Type>
+          <Server>1pacific1-ma\ia3pacific6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="1pacific2.dev.pr.mmmhc.com\pb_3pacific6:MMMHC\igonzalezp">
+          <Created>2017-03-23T12:38:54.4815745-04:00</Created>
+          <Type>SQL</Type>
+          <Server>1pacific2.dev.pr.mmmhc.com\pb_3pacific6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="5PACIFIC1\IA3PACIFIC6:MMMHC\igonzalezp">
+          <Created>2017-10-05T09:09:37.0548289-04:00</Created>
+          <Type>SQL</Type>
+          <Server>5PACIFIC1\IA3PACIFIC6</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="63.78.142.143, 11014:etltestuser">
+          <Created>2017-08-16T09:58:59.5758496-04:00</Created>
+          <Type>SQL</Type>
+          <Server>63.78.142.143, 11014</Server>
+          <UserName>etltestuser</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="63.78.142.143,11014:etltestuser">
+          <Created>2017-07-12T17:14:20.0193685-04:00</Created>
+          <Type>SQL</Type>
+          <Server>63.78.142.143,11014</Server>
+          <UserName>etltestuser</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="67.148.197.145, 11018:etltestuser">
+          <Created>2018-01-16T11:36:46.9419869-04:00</Created>
+          <Type>SQL</Type>
+          <Server>67.148.197.145, 11018</Server>
+          <UserName>etltestuser</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="deleteExecutionLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:5PACIFIC1\IA3PACIFIC6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>5PACIFIC1\IA3PACIFIC6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>deleteExecutionLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DIHMemberElig.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DIHMemberElig.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DIHMmeberId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DIHMmeberId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EligibiltyPlanData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:67.148.197.145, 11018:False:etltestuser</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>67.148.197.145, 11018</AssociatedConnSrvName>
+          <AssociatedConnUserName>etltestuser</AssociatedConnUserName>
+          <FullPath>EligibiltyPlanData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertCases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InsertCases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MemberProfile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1DOVETREE1B\IA3PACIFIC6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1DOVETREE1B\IA3PACIFIC6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MemberProfile.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MemberProfileDIH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MemberProfileDIH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MemberProfilePlanData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:5PACIFIC1\IA3PACIFIC6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>5PACIFIC1\IA3PACIFIC6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MemberProfilePlanData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QNXTHubElig.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QNXTHubElig.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QNXTHubStg.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QNXTHubStg.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QNXTHubTgt.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:5PACIFIC1\IA3PACIFIC6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>5PACIFIC1\IA3PACIFIC6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QNXTHubTgt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SelectExecutionLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:5PACIFIC1\IA3PACIFIC6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>5PACIFIC1\IA3PACIFIC6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SelectExecutionLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific2.dev.pr.mmmhc.com\pb_3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific2.dev.pr.mmmhc.com\pb_3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:63.78.142.143, 11014:False:etltestuser</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>63.78.142.143, 11014</AssociatedConnSrvName>
+          <AssociatedConnUserName>etltestuser</AssociatedConnUserName>
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="stgMember.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>stgMember.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tgtMember.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>tgtMember.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TransactionLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TransactionLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UpdateMembersyncLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UpdateMembersyncLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UpdateWL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific2.dev.pr.mmmhc.com\pb_3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific2.dev.pr.mmmhc.com\pb_3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UpdateWL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:5PACIFIC1\IA3PACIFIC6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>5PACIFIC1\IA3PACIFIC6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="XML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:1pacific1-ma\ia3pacific6:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>1pacific1-ma\ia3pacific6</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XML.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
